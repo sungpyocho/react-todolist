@@ -1,0 +1,49 @@
+.Todo-body {
+    position: absolute;
+    top: calc(40% + 40px);
+    left: 50%;
+    transform: translate(-50%, 0%);
+    width: 500px;
+    height: calc(60% - 40px);
+    color: white;
+    text-align: center;
+}
+
+/* 아이패드보다 작은 기기에서는 width 100% */
+@media screen and (max-width:768px) {
+  .Todo-body {
+    width: 100%;
+  }
+}
+
+
+.Todo-input {
+    position: absolute;
+    top: 8%;
+    left: 50%;
+    /*요소의 높이/너비의 반(50%)만큼 위/왼쪽으로 이동*/
+    transform: translate(-50%, -60%);
+    width: 220px;
+    height: 40px;
+    padding: 3px;
+    background: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 3px solid white;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+  }
+  
+  ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 0.5; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: white;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: white;
+  }

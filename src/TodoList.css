@@ -1,0 +1,31 @@
+.TodoList-body {
+    position: relative;
+    top: 20%;
+    height: 80%;
+    overflow-y : auto;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+.TodoList-items {
+    position: relative;
+    text-align: left;
+    display: flex;
+    border: 2px solid white;
+    padding: 10px;
+    margin: 10px;
+}
+
+.TodoList-button {
+    height: inherit;
+    border: none;
+    background: transparent;
+    margin-right: 1em;
+    font-weight: 500;
+    font-family: 'Spoqa Han Sans', 'Sans-serif';
+    color: white;
+}
+
+.TodoList-item {
+}
