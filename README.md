@@ -1,12 +1,15 @@
 # Simple Todo-List App using React
 ![sample pic](./sample.png)
 
+## How to Access
+URL: https://sungpyocho.github.io/react-todolist/
+
 ## Features
 - Modern, Simple Design
 - Set your own background by typing some queries in the 'Search Themes' box!
 
 
-## Available Scripts
+## For Developers: Available Scripts
 
 In the project directory, you can run:
 
