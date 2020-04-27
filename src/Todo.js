@@ -9,6 +9,7 @@ class Todo extends Component {
             todoList: []
         };
     this.handleInputkeyPress = this.handleInputkeyPress.bind(this);
+    this.handleClickRemove = this.handleClickRemove.bind(this);
     }
 
     componentDidMount() {
@@ -27,10 +28,8 @@ class Todo extends Component {
             // 함수 형태가 아니면 가장 마지막 넣은 todo가 로컬스토리지에 저장이 안된다..왜?
             () => localStorage.setItem("todoList", JSON.stringify(this.state.todoList))
             );
+            event.target.value = "";
         }
-
-        event.target.value = "";
-        event.preventDefault();
     }
 
     handleClickRemove = index => {
