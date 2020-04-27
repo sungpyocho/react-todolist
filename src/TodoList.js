@@ -10,7 +10,7 @@ const TodoList = props => {
                 <button 
                     onClick={() => props.remove(index)}
                     className="TodoList-button"
-                >&#9932;</button>
+                >&times;</button>
                 <span>{todo}</span>
             </div>)
         }

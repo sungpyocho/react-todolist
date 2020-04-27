@@ -15,6 +15,7 @@
     border: 2px solid white;
     padding: 10px;
     margin: 10px;
+    font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', sans-serif;
 }
 
 .TodoList-button {
@@ -23,9 +24,6 @@
     background: transparent;
     margin-right: 1em;
     font-weight: 500;
-    font-family: 'Spoqa Han Sans', 'Sans-serif';
+    font-family: 'Spoqa Han Sans', sans-serif;
     color: white;
-}
-
-.TodoList-item {
 }
